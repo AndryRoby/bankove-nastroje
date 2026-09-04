@@ -1,0 +1,10 @@
+{
+  "name": "bankove-nastroje",
+  "version": "1.0.0",
+  "description": "Bankové nástroje pre účtovníkov: produktová stránka a jedna Pro licencia pre štyri ARLing nástroje na prácu s bankou (SEPA pain.001 Doctor, SEPA pain.001 Generátor, camt.053 do Excelu, Párovač platieb).",
+  "private": true,
+  "type": "module",
+  "scripts": {},
+  "license": "UNLICENSED",
+  "author": "ARLing s. r. o. <andrej@arling.sk>"
+}
