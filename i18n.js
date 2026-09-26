@@ -40,9 +40,9 @@ export const DICT = {
     de: 'Vier Tools für die Arbeit mit der Bank. Eine Lizenz.',
   },
   'hero.lead': {
-    sk: 'SEPA pain.001 Doctor, SEPA pain.001 Generátor, camt.053 do Excelu a Párovač platieb bežia celé vo vašom prehliadači: nič z toho, čo do nich vložíte, sa neodosiela. Jedna Pro licencia platí v troch z nich (Generátor, camt.053 do Excelu, Párovač platieb); SEPA pain.001 Doctor je zadarmo a licenciu nepotrebuje. Kontrola a tvorba pain.001 sú zadarmo bez limitu; prevod výpisu a párovanie platieb bežia zadarmo nad celým súborom, stiahnutý súbor má však bez licencie len prvých 20 riadkov ako ukážku.',
-    en: 'SEPA pain.001 Doctor, SEPA pain.001 Generator, camt.053 to Excel and Payment matcher run entirely in your browser: nothing you put into them is uploaded. They work with any bank that exports camt.053 or accepts pain.001, for example Sparkasse, Volksbank, Deutsche Bank, Commerzbank, Raiffeisen, Erste, UBS or PostFinance, as well as Slovak banks. One Pro licence works in three of them (Generator, camt.053 to Excel, Payment matcher); SEPA pain.001 Doctor is free and needs no licence. Checking and building pain.001 files is free with no limit; statement conversion and payment matching run free on the whole file, but without a licence the downloaded file holds only the first 20 rows as a sample.',
-    de: 'SEPA pain.001 Doctor, SEPA-pain.001-Generator, camt.053 nach Excel und Zahlungsabgleich laufen vollständig in Ihrem Browser: nichts, was Sie eingeben, wird hochgeladen. Sie funktionieren mit jeder Bank, die camt.053 exportiert oder pain.001 akzeptiert, zum Beispiel Sparkasse, Volksbank, Deutsche Bank, Commerzbank, Raiffeisen, Erste, UBS oder PostFinance, sowie mit slowakischen Banken. Eine Pro-Lizenz gilt in dreien davon (Generator, camt.053 nach Excel, Zahlungsabgleich); SEPA pain.001 Doctor ist kostenlos und braucht keine Lizenz. Prüfen und Erstellen von pain.001 ist kostenlos und ohne Limit; Umwandlung und Zahlungsabgleich laufen kostenlos über die ganze Datei, ohne Lizenz enthält die heruntergeladene Datei aber nur die ersten 20 Zeilen als Muster.',
+    sk: 'SEPA pain.001 Doctor, SEPA pain.001 Generátor, camt.053 do Excelu a Párovač platieb bežia celé vo vašom prehliadači: nič z toho, čo do nich vložíte, sa neodosiela. Jedna Pro licencia platí v troch z nich (Generátor, camt.053 do Excelu, Párovač platieb); SEPA pain.001 Doctor je zadarmo a licenciu nepotrebuje. Kontrola a tvorba pain.001 sú zadarmo, generátor až do 5 000 platieb v jednom súbore; prevod výpisu a párovanie platieb bežia zadarmo nad celým súborom, stiahnutý súbor má však bez licencie len prvých 20 riadkov ako ukážku.',
+    en: 'SEPA pain.001 Doctor, SEPA pain.001 Generator, camt.053 to Excel and Payment matcher run entirely in your browser: nothing you put into them is uploaded. They work with any bank that exports camt.053 or accepts pain.001, for example Sparkasse, Volksbank, Deutsche Bank, Commerzbank, Raiffeisen, Erste, UBS or PostFinance, as well as Slovak banks. One Pro licence works in three of them (Generator, camt.053 to Excel, Payment matcher); SEPA pain.001 Doctor is free and needs no licence. Checking and building pain.001 files is free, up to 5,000 payments per generated file; statement conversion and payment matching run free on the whole file, but without a licence the downloaded file holds only the first 20 rows as a sample.',
+    de: 'SEPA pain.001 Doctor, SEPA-pain.001-Generator, camt.053 nach Excel und Zahlungsabgleich laufen vollständig in Ihrem Browser: nichts, was Sie eingeben, wird hochgeladen. Sie funktionieren mit jeder Bank, die camt.053 exportiert oder pain.001 akzeptiert, zum Beispiel Sparkasse, Volksbank, Deutsche Bank, Commerzbank, Raiffeisen, Erste, UBS oder PostFinance, sowie mit slowakischen Banken. Eine Pro-Lizenz gilt in dreien davon (Generator, camt.053 nach Excel, Zahlungsabgleich); SEPA pain.001 Doctor ist kostenlos und braucht keine Lizenz. Prüfen und Erstellen von pain.001 ist kostenlos, bis zu 5.000 Zahlungen je erstellter Datei; Umwandlung und Zahlungsabgleich laufen kostenlos über die ganze Datei, ohne Lizenz enthält die heruntergeladene Datei aber nur die ersten 20 Zeilen als Muster.',
   },
   'mast.what': { sk: 'Bankové nástroje', en: 'Bank tools', de: 'Bank-Tools' },
   'mast.where': { sk: 'Nástroje pre prácu', en: 'Tools for work', de: 'Werkzeuge für die Arbeit' },
@@ -54,9 +54,9 @@ export const DICT = {
   },
   'fact.free.dt': { sk: 'Zadarmo', en: 'Free', de: 'Kostenlos' },
   'fact.free.dd': {
-    sk: 'Kontrola a tvorba pain.001 bez limitu, prevod výpisu a párovanie nad celým súborom, bez účtu. Stiahnutý výpis alebo výsledok párovania má bez licencie prvých 20 riadkov.',
-    en: 'Checking and building pain.001 with no limit, statement conversion and matching on the whole file, no account. Without a licence a downloaded statement or matching result holds the first 20 rows.',
-    de: 'Prüfen und Erstellen von pain.001 ohne Limit, Umwandlung und Abgleich über die ganze Datei, ohne Konto. Ohne Lizenz enthält ein heruntergeladener Auszug oder Abgleich die ersten 20 Zeilen.',
+    sk: 'Kontrola a tvorba pain.001 zadarmo (generátor až do 5 000 platieb v súbore), prevod výpisu a párovanie nad celým súborom, bez účtu. Stiahnutý výpis alebo výsledok párovania má bez licencie prvých 20 riadkov.',
+    en: 'Checking and building pain.001 free (up to 5,000 payments per generated file), statement conversion and matching on the whole file, no account. Without a licence a downloaded statement or matching result holds the first 20 rows.',
+    de: 'Prüfen und Erstellen von pain.001 kostenlos (bis zu 5.000 Zahlungen je erstellter Datei), Umwandlung und Abgleich über die ganze Datei, ohne Konto. Ohne Lizenz enthält ein heruntergeladener Auszug oder Abgleich die ersten 20 Zeilen.',
   },
   'fact.paid.dt': { sk: 'Platí sa', en: 'Paid', de: 'Kostenpflichtig' },
   'fact.paid.dd': {
@@ -91,7 +91,7 @@ export const DICT = {
   'col.pub.dd': {
     sk: 'ARLing s. r. o., Ivanská cesta 32E, 821 04 Bratislava, Slovensko. IČO 56583486, IČ DPH SK2122352100.',
     en: 'ARLing s. r. o., Ivanská cesta 32E, 821 04 Bratislava, Slovakia. Company number 56583486, VAT ID SK2122352100.',
-    de: 'ARLing s. r. o., Ivanská cesta 32E, 821 04 Bratislava, Slowakei. Handelsregister-Nr. 56583486, USt-IdNr. SK2122352100.',
+    de: 'ARLing s. r. o., Ivanská cesta 32E, 821 04 Bratislava, Slowakei. IČO 56583486, USt-IdNr. SK2122352100.',
   },
   'col.who.dt': { sk: 'Kto to robí', en: 'Who makes it', de: 'Wer es macht' },
   'col.who.dd': {
@@ -101,9 +101,9 @@ export const DICT = {
   },
   'col.pay.dt': { sk: 'Platba a doručenie', en: 'Payment and delivery', de: 'Zahlung und Lieferung' },
   'col.pay.dd': {
-    sk: 'Platbu spracuje Stripe, ktorý je voči vám predajcom, vystaví doklad a odvedie DPH. Licenčný kľúč príde e-mailom hneď po zaplatení.',
-    en: 'Payment is handled by Stripe, which is the seller towards you, issues the receipt and remits VAT. The licence key arrives by e-mail right after payment.',
-    de: 'Die Zahlung wickelt Stripe ab, das Ihnen gegenüber Verkäufer ist, den Beleg ausstellt und die Umsatzsteuer abführt. Der Lizenzschlüssel kommt direkt nach der Zahlung per E-Mail.',
+    sk: 'Platbu spracuje Stripe cez Managed Payments. Predajcom je Link (Sold through Link, LLC), ktorý vám pošle doklad a faktúru v PDF; DPH vypočíta a odvedie Stripe. Po zaplatení sa stránka vráti sem a licenciu aktivuje sama.',
+    en: 'Stripe processes the payment through Managed Payments. The merchant of record is Link (Sold through Link, LLC), which sends you the receipt and the invoice as a PDF; Stripe calculates and remits the VAT. After payment the page returns here and activates the licence by itself.',
+    de: 'Die Zahlung wickelt Stripe über Managed Payments ab. Verkäufer (Merchant of Record) ist Link (Sold through Link, LLC), der Ihnen Beleg und Rechnung als PDF schickt; die Umsatzsteuer berechnet und führt Stripe ab. Nach der Zahlung kehrt die Seite hierher zurück und aktiviert die Lizenz selbst.',
   },
   'col.sample.dt': { sk: 'Ukážka a podmienky', en: 'Sample and terms', de: 'Beispiel und Bedingungen' },
   'col.sample.dd': {
@@ -113,9 +113,9 @@ export const DICT = {
   },
   'col.reply.dt': { sk: 'Odpoveď', en: 'Reply', de: 'Antwort' },
   'col.reply.dd': {
-    sk: 'Na <a href="mailto:andrej@arling.sk" data-umami-event="klik_email" data-umami-event-produkt="banky">andrej@arling.sk</a> odpovedáme do 24 hodín.',
-    en: 'We answer <a href="mailto:andrej@arling.sk" data-umami-event="klik_email" data-umami-event-produkt="banky">andrej@arling.sk</a> within 24 hours.',
-    de: 'Auf <a href="mailto:andrej@arling.sk" data-umami-event="klik_email" data-umami-event-produkt="banky">andrej@arling.sk</a> antworten wir innerhalb von 24 Stunden.',
+    sk: 'Na <a href="mailto:podpora@arling.sk" data-umami-event="klik_email" data-umami-event-produkt="banky">podpora@arling.sk</a> odpovedáme do 24 hodín.',
+    en: 'We answer <a href="mailto:support@arling.sk" data-umami-event="klik_email" data-umami-event-produkt="banky">support@arling.sk</a> within 24 hours.',
+    de: 'Auf <a href="mailto:support@arling.sk" data-umami-event="klik_email" data-umami-event-produkt="banky">support@arling.sk</a> antworten wir innerhalb von 24 Stunden.',
   },
   'col.not.dt': { sk: 'Čo to nie je', en: 'What it is not', de: 'Was es nicht ist' },
   'col.not.dd': {
@@ -211,9 +211,9 @@ export const DICT = {
   // ── section 02: Pro pricing ──────────────────────────────────────────
   's2.h2': { sk: '9 € mesačne, alebo 79 € ročne za Pro v troch nástrojoch.', en: '€9 a month, or €79 a year for Pro in three tools.', de: '9 €/Monat oder 79 €/Jahr für Pro in drei Tools.' },
   's2.sub': {
-    sk: 'Jedna platba, jedna licencia, žiadne obmedzenie na počet nástrojov ani zariadení. DPH v cene, faktúru pošle Stripe hneď po zaplatení, zrušiť môžete kedykoľvek.',
-    en: 'One payment, one licence, no limit on the number of tools or devices. VAT included, Stripe sends the invoice right after payment, cancel anytime.',
-    de: 'Eine Zahlung, eine Lizenz, keine Begrenzung bei der Anzahl der Tools oder Geräte. Inklusive MwSt., die Rechnung stellt Stripe sofort nach der Zahlung, jederzeit kündbar.',
+    sk: 'Jedna licencia pre všetky tri nástroje, bez obmedzenia počtu zariadení. DPH v cene. Platbu spracuje Stripe cez Managed Payments, doklad a faktúru vám pošle Link (Sold through Link, LLC). Zrušiť môžete kedykoľvek.',
+    en: 'One licence for all three tools, no limit on devices. VAT included. Stripe processes the payment through Managed Payments; Link (Sold through Link, LLC) sends you the receipt and the invoice. Cancel anytime.',
+    de: 'Eine Lizenz für alle drei Tools, ohne Begrenzung der Geräte. Inklusive MwSt. Die Zahlung wickelt Stripe über Managed Payments ab; Beleg und Rechnung schickt Ihnen Link (Sold through Link, LLC). Jederzeit kündbar.',
   },
   's2.badge.recommended': { sk: 'Odporúčané, ušetríte 29 €', en: 'Recommended, save €29', de: 'Empfohlen, sparen Sie 29 €' },
   's2.year.unit': { sk: '/ rok', en: '/ year', de: '/ Jahr' },
@@ -244,9 +244,9 @@ export const DICT = {
     de: 'Was, wenn mir Pro nicht zusagt oder ein Tool nicht funktioniert?',
   },
   'obj2.a': {
-    sk: 'Napíšte na andrej@arling.sk. Chybu, ktorú niektorý z nástrojov spracoval zle, opravíme prednostne; ak vám Pro jednoducho nesadne, do 14 dní od kúpy peniaze vrátime bez zbytočných otázok.',
-    en: 'Write to andrej@arling.sk. A bug in any of the tools gets fixed with priority; if Pro simply is not for you, we refund the payment within 14 days of purchase, no questions asked.',
-    de: 'Schreiben Sie an andrej@arling.sk. Einen Fehler, den eines der Tools falsch verarbeitet hat, beheben wir bevorzugt; wenn Pro einfach nicht passt, erstatten wir die Zahlung innerhalb von 14 Tagen nach dem Kauf ohne weitere Fragen.',
+    sk: 'Napíšte na podpora@arling.sk. Chybu, ktorú niektorý z nástrojov spracoval zle, opravíme prednostne; ak vám Pro jednoducho nesadne, do 14 dní od kúpy peniaze vrátime bez zbytočných otázok.',
+    en: 'Write to support@arling.sk. A bug in any of the tools gets fixed with priority; if Pro simply is not for you, we refund the payment within 14 days of purchase, no questions asked.',
+    de: 'Schreiben Sie an support@arling.sk. Einen Fehler, den eines der Tools falsch verarbeitet hat, beheben wir bevorzugt; wenn Pro einfach nicht passt, erstatten wir die Zahlung innerhalb von 14 Tagen nach dem Kauf ohne weitere Fragen.',
   },
   'obj3.q': { sk: 'Ako predplatné zrušiť?', en: 'How do I cancel the subscription?', de: 'Wie kündige ich das Abo?' },
   'obj3.a': {
@@ -256,17 +256,17 @@ export const DICT = {
   },
   'obj4.q': { sk: 'Čo presne je zadarmo?', en: 'What exactly is free?', de: 'Was genau ist kostenlos?' },
   'obj4.a': {
-    sk: 'SEPA pain.001 Doctor a SEPA pain.001 Generátor: kontrola aj tvorba súboru sú zadarmo, bez limitu na počet použití. camt.053 do Excelu a Párovač platieb: prevod aj párovanie bežia zadarmo nad celým súborom, bez licencie sa stiahne prvých 20 riadkov ako ukážka. Celý stiahnutý súbor, export do MT940 a DATEV a pohodlie pri opakovanom mesačnom spracovaní sú súčasť Pro.',
-    en: 'SEPA pain.001 Doctor and SEPA pain.001 Generator: checking and building a file are free, with no limit on uses. camt.053 to Excel and Payment matcher: conversion and matching run free on the whole file; without a licence the download holds the first 20 rows as a sample. The full downloaded file, the MT940 and DATEV export and convenience for repeated monthly processing are part of Pro.',
-    de: 'SEPA pain.001 Doctor und SEPA-pain.001-Generator: Prüfen und Erstellen einer Datei sind kostenlos, ohne Limit bei der Nutzung. camt.053 nach Excel und Zahlungsabgleich: Umwandlung und Abgleich laufen kostenlos über die ganze Datei; ohne Lizenz enthält der Download die ersten 20 Zeilen als Muster. Die vollständige Datei, der Export nach MT940 und DATEV und Komfort für die wiederkehrende monatliche Verarbeitung gehören zu Pro.',
+    sk: 'SEPA pain.001 Doctor a SEPA pain.001 Generátor: kontrola aj tvorba súboru sú zadarmo, bez limitu na počet použití, generátor až do 5 000 platieb v jednom súbore. camt.053 do Excelu a Párovač platieb: prevod aj párovanie bežia zadarmo nad celým súborom, bez licencie sa stiahne prvých 20 riadkov ako ukážka. Celý stiahnutý súbor, export do MT940 a DATEV a pohodlie pri opakovanom mesačnom spracovaní sú súčasť Pro.',
+    en: 'SEPA pain.001 Doctor and SEPA pain.001 Generator: checking and building a file are free, with no limit on uses (the generator takes up to 5,000 payments per file). camt.053 to Excel and Payment matcher: conversion and matching run free on the whole file; without a licence the download holds the first 20 rows as a sample. The full downloaded file, the MT940 and DATEV export and convenience for repeated monthly processing are part of Pro.',
+    de: 'SEPA pain.001 Doctor und SEPA-pain.001-Generator: Prüfen und Erstellen einer Datei sind kostenlos, ohne Limit bei der Nutzung (der Generator nimmt bis zu 5.000 Zahlungen je Datei). camt.053 nach Excel und Zahlungsabgleich: Umwandlung und Abgleich laufen kostenlos über die ganze Datei; ohne Lizenz enthält der Download die ersten 20 Zeilen als Muster. Die vollständige Datei, der Export nach MT940 und DATEV und Komfort für die wiederkehrende monatliche Verarbeitung gehören zu Pro.',
   },
 
   // ── section 03: Pro benefits ─────────────────────────────────────────
   's3.h2': { sk: 'Čo Pro pridá v troch nástrojoch.', en: 'What Pro adds in three tools.', de: 'Was Pro in drei Tools hinzufügt.' },
   's3.sub': {
-    sk: 'Celý stiahnutý súbor pri prevode výpisu a párovaní a pohodlie pre opakované mesačné spracovanie. Kontrola a tvorba pain.001 ostávajú zadarmo bez limitu.',
-    en: 'The full downloaded file in statement conversion and matching, plus convenience for repeated monthly processing. Checking and building pain.001 stays free with no limit.',
-    de: 'Die vollständige heruntergeladene Datei bei Umwandlung und Abgleich und Komfort für die wiederkehrende monatliche Verarbeitung. Prüfen und Erstellen von pain.001 bleibt kostenlos und ohne Limit.',
+    sk: 'Celý stiahnutý súbor pri prevode výpisu a párovaní a pohodlie pre opakované mesačné spracovanie. Kontrola a tvorba pain.001 ostávajú zadarmo, generátor až do 5 000 platieb v jednom súbore.',
+    en: 'The full downloaded file in statement conversion and matching, plus convenience for repeated monthly processing. Checking and building pain.001 stays free, up to 5,000 payments per generated file.',
+    de: 'Die vollständige heruntergeladene Datei bei Umwandlung und Abgleich und Komfort für die wiederkehrende monatliche Verarbeitung. Prüfen und Erstellen von pain.001 bleibt kostenlos, bis zu 5.000 Zahlungen je erstellter Datei.',
   },
   'r1.title': { sk: 'Uložené profily platiteľov.', en: 'Saved payer profiles.', de: 'Gespeicherte Zahlerprofile.' },
   'r1.body': {
@@ -305,9 +305,9 @@ export const DICT = {
     de: 'Eine Frage, oder ein Fall, den eines der Tools falsch verarbeitet hat? Eine bevorzugte Antwort, direkt vom Autor der Tools.',
   },
   's3.note': {
-    sk: 'Bez licencie: kontrola a tvorba pain.001 bez limitu, prevod výpisu a párovanie nad celým súborom, stiahnutý súbor s prvými 20 riadkami ako ukážkou.',
-    en: 'Without a licence: checking and building pain.001 with no limit, statement conversion and matching on the whole file, a downloaded file with the first 20 rows as a sample.',
-    de: 'Ohne Lizenz: Prüfen und Erstellen von pain.001 ohne Limit, Umwandlung und Abgleich über die ganze Datei, eine heruntergeladene Datei mit den ersten 20 Zeilen als Muster.',
+    sk: 'Bez licencie: kontrola a tvorba pain.001 zadarmo (generátor až do 5 000 platieb v súbore), prevod výpisu a párovanie nad celým súborom, stiahnutý súbor s prvými 20 riadkami ako ukážkou.',
+    en: 'Without a licence: checking and building pain.001 free (up to 5,000 payments per generated file), statement conversion and matching on the whole file, a downloaded file with the first 20 rows as a sample.',
+    de: 'Ohne Lizenz: Prüfen und Erstellen von pain.001 kostenlos (bis zu 5.000 Zahlungen je erstellter Datei), Umwandlung und Abgleich über die ganze Datei, eine heruntergeladene Datei mit den ersten 20 Zeilen als Muster.',
   },
 
   // ── section 04: licence ──────────────────────────────────────────────
@@ -342,9 +342,9 @@ export const DICT = {
     de: 'Sagen Sie uns Bescheid, oder schreiben Sie, was Sie brauchen.',
   },
   's5.sub': {
-    sk: 'Bez účtu a bez platby: kontrola a tvorba pain.001 bez limitu, pri prevode výpisu a párovaní stiahnutie prvých 20 riadkov.',
-    en: 'No account, no payment: checking and building pain.001 with no limit, and a download of the first 20 rows in statement conversion and matching.',
-    de: 'Ohne Konto, ohne Zahlung: Prüfen und Erstellen von pain.001 ohne Limit, bei Umwandlung und Abgleich ein Download der ersten 20 Zeilen.',
+    sk: 'Bez účtu a bez platby: kontrola a tvorba pain.001 zadarmo (generátor až do 5 000 platieb v súbore), pri prevode výpisu a párovaní stiahnutie prvých 20 riadkov.',
+    en: 'No account, no payment: checking and building pain.001 free (up to 5,000 payments per generated file), and a download of the first 20 rows in statement conversion and matching.',
+    de: 'Ohne Konto, ohne Zahlung: Prüfen und Erstellen von pain.001 kostenlos (bis zu 5.000 Zahlungen je erstellter Datei), bei Umwandlung und Abgleich ein Download der ersten 20 Zeilen.',
   },
   's5.subscribe.p': {
     sk: '<b>Dajte mi vedieť o novom nástroji.</b> Len nové nástroje. Žiadny newsletter, žiadne zdieľanie. Odhlásenie odpoveďou na mail.',
@@ -360,9 +360,9 @@ export const DICT = {
     de: 'Danke. Wir melden uns nur, wenn es etwas Neues gibt.',
   },
   's5.subscribe.error': {
-    sk: 'Nepodarilo sa uložiť. Napíšte na <a href="mailto:andrej@arling.sk">andrej@arling.sk</a>.',
-    en: 'Could not save it. Please write to <a href="mailto:andrej@arling.sk">andrej@arling.sk</a>.',
-    de: 'Speichern fehlgeschlagen. Bitte schreiben Sie an <a href="mailto:andrej@arling.sk">andrej@arling.sk</a>.',
+    sk: 'Nepodarilo sa uložiť. Napíšte na <a href="mailto:podpora@arling.sk">podpora@arling.sk</a>.',
+    en: 'Could not save it. Please write to <a href="mailto:support@arling.sk">support@arling.sk</a>.',
+    de: 'Speichern fehlgeschlagen. Bitte schreiben Sie an <a href="mailto:support@arling.sk">support@arling.sk</a>.',
   },
   's5.subscribe.privacy': { sk: 'Súkromie', en: 'Privacy', de: 'Datenschutz' },
   's5.business.p': {
@@ -382,9 +382,9 @@ export const DICT = {
   },
   'faq.q1': { sk: 'Čo presne dostanem v balíku Bankové nástroje?', en: 'What exactly do I get in the Banking tools bundle?', de: 'Was genau bekomme ich im Banktools-Paket?' },
   'faq.a1': {
-    sk: 'Jednu Pro licenciu platnú v troch nástrojoch naraz: SEPA pain.001 Generátor, camt.053 do Excelu a Párovač platieb. SEPA pain.001 Doctor je zadarmo bez licencie; jeho automatická oprava súboru za 29 € je samostatný nákup. Kontrola a tvorba pain.001 sú zadarmo bez limitu; prevod výpisu a párovanie tiež, stiahnutý súbor má však bez licencie prvých 20 riadkov. Pro pridáva celý stiahnutý súbor, export do MT940 a DATEV a pohodlie: uložené profily platiteľov, viac súborov a účtov naraz, šablóny mapovania pre Pohodu, Omegu (KROS) a Money S3, históriu spracovaní a prednostnú e-mailovú podporu.',
-    en: 'One Pro licence valid in three tools at once: SEPA pain.001 Generator, camt.053 to Excel and Payment matcher. SEPA pain.001 Doctor is free without a licence; its automatic file fix for €29 is a separate purchase. Checking and building pain.001 files is free with no limit; statement conversion and matching are free too, but without a licence the downloaded file holds the first 20 rows. Pro adds the full downloaded file, the MT940 and DATEV export, and convenience: saved payer profiles, several files and accounts at once, mapping presets for Pohoda, Omega (KROS) and Money S3, a processing history, and priority email support.',
-    de: 'Eine Pro-Lizenz, gültig in drei Tools gleichzeitig: SEPA-pain.001-Generator, camt.053 nach Excel und Zahlungsabgleich. SEPA pain.001 Doctor ist ohne Lizenz kostenlos; seine automatische Korrektur der Datei für 29 € ist ein separater Kauf. Prüfen und Erstellen von pain.001 ist kostenlos und ohne Limit; Umwandlung und Abgleich ebenfalls, ohne Lizenz enthält die heruntergeladene Datei aber die ersten 20 Zeilen. Pro fügt die vollständige Datei, den Export nach MT940 und DATEV und Komfort hinzu: gespeicherte Zahlerprofile, mehrere Dateien und Konten gleichzeitig, Mapping-Vorlagen für Pohoda, Omega (KROS) und Money S3, einen Verarbeitungsverlauf und bevorzugten E-Mail-Support.',
+    sk: 'Jednu Pro licenciu platnú v troch nástrojoch naraz: SEPA pain.001 Generátor, camt.053 do Excelu a Párovač platieb. SEPA pain.001 Doctor je zadarmo bez licencie; jeho automatická oprava súboru za 29 € je samostatný nákup. Kontrola a tvorba pain.001 sú zadarmo, generátor až do 5 000 platieb v jednom súbore; prevod výpisu a párovanie tiež, stiahnutý súbor má však bez licencie prvých 20 riadkov. Pro pridáva celý stiahnutý súbor, export do MT940 a DATEV a pohodlie: uložené profily platiteľov, viac súborov a účtov naraz, šablóny mapovania pre Pohodu, Omegu (KROS) a Money S3, históriu spracovaní a prednostnú e-mailovú podporu.',
+    en: 'One Pro licence valid in three tools at once: SEPA pain.001 Generator, camt.053 to Excel and Payment matcher. SEPA pain.001 Doctor is free without a licence; its automatic file fix for €29 is a separate purchase. Checking and building pain.001 files is free, up to 5,000 payments per generated file; statement conversion and matching are free too, but without a licence the downloaded file holds the first 20 rows. Pro adds the full downloaded file, the MT940 and DATEV export, and convenience: saved payer profiles, several files and accounts at once, mapping presets for Pohoda, Omega (KROS) and Money S3, a processing history, and priority email support.',
+    de: 'Eine Pro-Lizenz, gültig in drei Tools gleichzeitig: SEPA-pain.001-Generator, camt.053 nach Excel und Zahlungsabgleich. SEPA pain.001 Doctor ist ohne Lizenz kostenlos; seine automatische Korrektur der Datei für 29 € ist ein separater Kauf. Prüfen und Erstellen von pain.001 ist kostenlos, bis zu 5.000 Zahlungen je erstellter Datei; Umwandlung und Abgleich ebenfalls, ohne Lizenz enthält die heruntergeladene Datei aber die ersten 20 Zeilen. Pro fügt die vollständige Datei, den Export nach MT940 und DATEV und Komfort hinzu: gespeicherte Zahlerprofile, mehrere Dateien und Konten gleichzeitig, Mapping-Vorlagen für Pohoda, Omega (KROS) und Money S3, einen Verarbeitungsverlauf und bevorzugten E-Mail-Support.',
   },
   'faq.q2': { sk: 'Ako funguje jedna licencia pre tri nástroje?', en: 'How does one licence for three tools work?', de: 'Wie funktioniert eine Lizenz für drei Tools?' },
   'faq.a2': {
@@ -400,28 +400,28 @@ export const DICT = {
   },
   'faq.q4': { sk: 'Čo ak chcem len jeden z nástrojov, nie všetky štyri?', en: 'What if I only want one of the tools, not all four?', de: 'Was, wenn ich nur eines der Tools möchte, nicht alle vier?' },
   'faq.a4': {
-    sk: 'Každý zo štyroch nástrojov funguje zadarmo aj bez tejto stránky: kontrola a tvorba pain.001 bez limitu, prevod výpisu a párovanie nad celým súborom so stiahnutím prvých 20 riadkov. Balík Bankové nástroje sa oplatí, keď opakovane používate aspoň dva z nich; ak vám pri príležitostnom použití jedného nástroja stačí free verzia, je presne na to určená a Pro nepotrebujete.',
-    en: 'Each of the four tools works free without this page: checking and building pain.001 with no limit, statement conversion and matching on the whole file with a download of the first 20 rows. The Banking tools bundle pays off once you repeatedly use at least two of them; if the free version is enough for occasional use of one tool, that is exactly what it is for, and you do not need Pro.',
-    de: 'Jedes der vier Tools funktioniert kostenlos auch ohne diese Seite: Prüfen und Erstellen von pain.001 ohne Limit, Umwandlung und Abgleich über die ganze Datei mit einem Download der ersten 20 Zeilen. Das Banktools-Paket lohnt sich, sobald Sie mindestens zwei davon wiederholt nutzen; reicht Ihnen die kostenlose Version für die gelegentliche Nutzung eines Tools, ist genau dafür sie gedacht, und Sie brauchen Pro nicht.',
+    sk: 'Každý zo štyroch nástrojov funguje zadarmo aj bez tejto stránky: kontrola a tvorba pain.001 zadarmo (generátor až do 5 000 platieb v súbore), prevod výpisu a párovanie nad celým súborom so stiahnutím prvých 20 riadkov. Balík Bankové nástroje sa oplatí, keď opakovane používate aspoň dva z nich; ak vám pri príležitostnom použití jedného nástroja stačí free verzia, je presne na to určená a Pro nepotrebujete.',
+    en: 'Each of the four tools works free without this page: checking and building pain.001 free (up to 5,000 payments per generated file), statement conversion and matching on the whole file with a download of the first 20 rows. The Banking tools bundle pays off once you repeatedly use at least two of them; if the free version is enough for occasional use of one tool, that is exactly what it is for, and you do not need Pro.',
+    de: 'Jedes der vier Tools funktioniert kostenlos auch ohne diese Seite: Prüfen und Erstellen von pain.001 kostenlos (bis zu 5.000 Zahlungen je erstellter Datei), Umwandlung und Abgleich über die ganze Datei mit einem Download der ersten 20 Zeilen. Das Banktools-Paket lohnt sich, sobald Sie mindestens zwei davon wiederholt nutzen; reicht Ihnen die kostenlose Version für die gelegentliche Nutzung eines Tools, ist genau dafür sie gedacht, und Sie brauchen Pro nicht.',
   },
   'faq.q5': { sk: 'Ako dostanem faktúru?', en: 'How do I get an invoice?', de: 'Wie bekomme ich eine Rechnung?' },
   'faq.a5': {
-    sk: 'Faktúru vystaví a pošle na váš e-mail Stripe hneď po zaplatení. Pri tomto predaji je ARLing s. r. o. predajcom cez Stripe Managed Payments: DPH aj vystavenie dokladu rieši priamo Stripe.',
-    en: 'Stripe issues and sends the invoice to your email right after payment. For this sale, ARLing s. r. o. sells through Stripe Managed Payments: Stripe handles both the VAT and issuing the document directly.',
-    de: 'Stripe stellt die Rechnung aus und sendet sie sofort nach der Zahlung an Ihre E-Mail-Adresse. Bei diesem Verkauf tritt ARLing s. r. o. als Verkäufer über Stripe Managed Payments auf: Stripe übernimmt sowohl die MwSt. als auch die Ausstellung des Belegs direkt.',
+    sk: 'Licenciu predávame cez Stripe Managed Payments. Predajcom je v ňom Link (Sold through Link, LLC), ktorý vám pošle doklad a faktúru v PDF; DPH vypočíta a odvedie Stripe. ARLing s. r. o. dodáva nástroje a licenčný kľúč.',
+    en: 'The licence is sold through Stripe Managed Payments. The merchant of record there is Link (Sold through Link, LLC), which sends you the receipt and the invoice as a PDF; Stripe calculates and remits the VAT. ARLing s. r. o. delivers the tools and the licence key.',
+    de: 'Die Lizenz wird über Stripe Managed Payments verkauft. Verkäufer (Merchant of Record) ist dort Link (Sold through Link, LLC), der Ihnen Beleg und Rechnung als PDF schickt; die Umsatzsteuer berechnet und führt Stripe ab. ARLing s. r. o. liefert die Tools und den Lizenzschlüssel.',
   },
   'faq.q6': { sk: 'Môžem licenciu zrušiť alebo dostať peniaze naspäť?', en: 'Can I cancel the licence or get a refund?', de: 'Kann ich die Lizenz kündigen oder eine Rückerstattung bekommen?' },
   'faq.a6': {
-    sk: 'Predplatné zrušíte alebo zmeníte kedykoľvek na <a href="https://billing.stripe.com/p/login/3cIaER9M63hNeFcg8B4ko00">portáli Stripe</a> (prihlásenie e-mailom, ktorým ste platili); platí do konca zaplateného obdobia. Ak vám Pro nesadne, napíšte do 14 dní od kúpy na <a href="mailto:andrej@arling.sk?subject=Vr%C3%A1tenie%20Pro%20licencie">andrej@arling.sk</a> a peniaze vrátime bez zbytočných otázok.',
-    en: 'You can cancel or change the subscription at any time in the <a href="https://billing.stripe.com/p/login/3cIaER9M63hNeFcg8B4ko00">Stripe customer portal</a> (log in with the e-mail you paid with); it stays active until the end of the paid period. If Pro is not for you, write within 14 days of purchase to <a href="mailto:andrej@arling.sk?subject=Vr%C3%A1tenie%20Pro%20licencie">andrej@arling.sk</a> and we will refund the payment, no questions asked.',
-    de: 'Sie können das Abo jederzeit im <a href="https://billing.stripe.com/p/login/3cIaER9M63hNeFcg8B4ko00">Stripe-Kundenportal</a> kündigen oder ändern (Anmeldung mit der E-Mail-Adresse der Zahlung); es bleibt bis zum Ende des bezahlten Zeitraums aktiv. Wenn Pro nicht passt, schreiben Sie innerhalb von 14 Tagen nach dem Kauf an <a href="mailto:andrej@arling.sk?subject=Vr%C3%A1tenie%20Pro%20licencie">andrej@arling.sk</a>, und wir erstatten die Zahlung ohne weitere Fragen.',
+    sk: 'Predplatné zrušíte alebo zmeníte kedykoľvek na <a href="https://billing.stripe.com/p/login/3cIaER9M63hNeFcg8B4ko00">portáli Stripe</a> (prihlásenie e-mailom, ktorým ste platili); platí do konca zaplateného obdobia. Ak vám Pro nesadne, napíšte do 14 dní od kúpy na <a href="mailto:podpora@arling.sk?subject=Vr%C3%A1tenie%20Pro%20licencie">podpora@arling.sk</a> a peniaze vrátime bez zbytočných otázok.',
+    en: 'You can cancel or change the subscription at any time in the <a href="https://billing.stripe.com/p/login/3cIaER9M63hNeFcg8B4ko00">Stripe customer portal</a> (log in with the e-mail you paid with); it stays active until the end of the paid period. If Pro is not for you, write within 14 days of purchase to <a href="mailto:support@arling.sk?subject=Vr%C3%A1tenie%20Pro%20licencie">support@arling.sk</a> and we will refund the payment, no questions asked.',
+    de: 'Sie können das Abo jederzeit im <a href="https://billing.stripe.com/p/login/3cIaER9M63hNeFcg8B4ko00">Stripe-Kundenportal</a> kündigen oder ändern (Anmeldung mit der E-Mail-Adresse der Zahlung); es bleibt bis zum Ende des bezahlten Zeitraums aktiv. Wenn Pro nicht passt, schreiben Sie innerhalb von 14 Tagen nach dem Kauf an <a href="mailto:support@arling.sk?subject=Vr%C3%A1tenie%20Pro%20licencie">support@arling.sk</a>, und wir erstatten die Zahlung ohne weitere Fragen.',
   },
 
   // ── closing CTA ──────────────────────────────────────────────────────
   's7.sub': {
-    sk: 'Štyri nástroje na prácu s bankou, jedna licencia pre tri z nich za 9 € mesačne alebo 79 € ročne. Kontrola a tvorba pain.001 ostávajú zadarmo bez limitu.',
-    en: 'Four tools for working with your bank, one licence covering three of them for €9 a month or €79 a year. Checking and building pain.001 stays free with no limit.',
-    de: 'Vier Tools für die Arbeit mit der Bank, eine Lizenz für drei davon zu 9 €/Monat oder 79 €/Jahr. Prüfen und Erstellen von pain.001 bleibt kostenlos und ohne Limit.',
+    sk: 'Štyri nástroje na prácu s bankou, jedna licencia pre tri z nich za 9 € mesačne alebo 79 € ročne. Kontrola a tvorba pain.001 ostávajú zadarmo, generátor až do 5 000 platieb v jednom súbore.',
+    en: 'Four tools for working with your bank, one licence covering three of them for €9 a month or €79 a year. Checking and building pain.001 stays free, up to 5,000 payments per generated file.',
+    de: 'Vier Tools für die Arbeit mit der Bank, eine Lizenz für drei davon zu 9 €/Monat oder 79 €/Jahr. Prüfen und Erstellen von pain.001 bleibt kostenlos, bis zu 5.000 Zahlungen je erstellter Datei.',
   },
 
   // ── sticky mobile buy bar ────────────────────────────────────────────
@@ -482,9 +482,9 @@ export const DICT = {
 
   'js.error.licenceKeyMissing': { sk: 'Vložte licenčný kľúč.', en: 'Paste a licence key.', de: 'Lizenzschlüssel einfügen.' },
   'js.error.activationFailed': {
-    sk: 'Aktivácia zlyhala. Skúste vložiť kľúč ručne nižšie, alebo napíšte na andrej@arling.sk.',
-    en: 'Activation failed. Try pasting the key manually below, or write to andrej@arling.sk.',
-    de: 'Aktivierung fehlgeschlagen. Versuchen Sie, den Schlüssel unten manuell einzufügen, oder schreiben Sie an andrej@arling.sk.',
+    sk: 'Aktivácia zlyhala. Skúste vložiť kľúč ručne nižšie, alebo napíšte na podpora@arling.sk.',
+    en: 'Activation failed. Try pasting the key manually below, or write to support@arling.sk.',
+    de: 'Aktivierung fehlgeschlagen. Versuchen Sie, den Schlüssel unten manuell einzufügen, oder schreiben Sie an support@arling.sk.',
   },
   'js.already.note': {
     sk: 'Pro už máte aktívne, platná do {date}. Kúpou novej licencie predĺžite alebo zmeníte plán.',
@@ -499,9 +499,9 @@ export const DICT = {
     de: 'Bankwerkzeuge für die Buchhaltung: eine Pro-Lizenz für drei Tools',
   },
   'meta.description': {
-    sk: 'SEPA pain.001 Doctor, SEPA pain.001 Generátor, camt.053 do Excelu a Párovač platieb: štyri nástroje na prácu s bankou, jedna Pro licencia pre tri z nich za 9 € mesačne alebo 79 € ročne. Kontrola a tvorba pain.001 zadarmo bez limitu, nič sa neodosiela.',
-    en: 'SEPA pain.001 Doctor, SEPA pain.001 Generator, camt.053 to Excel and Payment matcher: four tools for working with your bank, one Pro licence covering three of them for €9 a month or €79 a year. Checking and building pain.001 free with no limit, nothing is uploaded.',
-    de: 'SEPA pain.001 Doctor, SEPA-pain.001-Generator, camt.053 nach Excel und Zahlungsabgleich: vier Tools für die Arbeit mit der Bank, eine Pro-Lizenz für drei davon zu 9 €/Monat oder 79 €/Jahr. Prüfen und Erstellen von pain.001 kostenlos ohne Limit, nichts wird hochgeladen.',
+    sk: 'SEPA pain.001 Doctor, SEPA pain.001 Generátor, camt.053 do Excelu a Párovač platieb: štyri nástroje na prácu s bankou, jedna Pro licencia pre tri z nich za 9 € mesačne alebo 79 € ročne. Kontrola a tvorba pain.001 zadarmo, generátor až do 5 000 platieb v súbore, nič sa neodosiela.',
+    en: 'SEPA pain.001 Doctor, SEPA pain.001 Generator, camt.053 to Excel and Payment matcher: four tools for working with your bank, one Pro licence covering three of them for €9 a month or €79 a year. Checking and building pain.001 free, up to 5,000 payments per generated file, nothing is uploaded.',
+    de: 'SEPA pain.001 Doctor, SEPA-pain.001-Generator, camt.053 nach Excel und Zahlungsabgleich: vier Tools für die Arbeit mit der Bank, eine Pro-Lizenz für drei davon zu 9 €/Monat oder 79 €/Jahr. Prüfen und Erstellen von pain.001 kostenlos, bis zu 5.000 Zahlungen je erstellter Datei, nichts wird hochgeladen.',
   },
 };
 
@@ -691,7 +691,7 @@ export function applyI18n(lang) {
 
   const businessLink = document.getElementById('business-link');
   if (businessLink) {
-    businessLink.href = 'mailto:andrej@arling.sk?subject=' + encodeURIComponent(t('s5.business.subject', l));
+    businessLink.href = 'mailto:' + (l === 'sk' ? 'podpora' : 'support') + '@arling.sk?subject=' + encodeURIComponent(t('s5.business.subject', l));
   }
 
   try { document.dispatchEvent(new CustomEvent('arling:langchange', { detail: { lang: l } })); } catch (e) {}
